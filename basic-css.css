@@ -1,0 +1,47 @@
+body{
+    background-color: aliceblue;
+    background-image:url("field.jpg");
+    background-size: cover;
+    background-repeat: repeat;   
+    }
+    h1{
+    color:white;
+    text-align:center;
+    text-transform:uppercase;
+    }
+    div > img{
+    border-radius: 50%;
+    width:500px;
+    height:auto;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    }
+    #list{
+    background-color:black;
+    font-size: 15px;
+    font-family:Arial;
+    font-style: oblique;
+    color:white;
+    border:solid white;
+    font-weight:bold;
+    list-style-type: square;
+    margin-right:1050px;
+    line-height: 150%;
+    letter-spacing: 2px;
+    padding-left:50px;
+    }
+    div.info p{
+    text-align:center;
+    color:black;
+    line-height:50%; 
+    font-weight:bold;
+    }
+    .link{
+    text-align: center;
+    color:black;
+    border:solid white;
+    margin-right:500px;
+    margin-left:625px;
+    background-color:bisque;
+    }

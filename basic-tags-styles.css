@@ -1,0 +1,23 @@
+table{
+    text-align: center; 
+    border-spacing: 5px; 
+    border: 1px solid black
+}
+table, th, td {
+    border: 1px solid black;
+ }
+.text-color{
+    color:blue;
+}
+.text-color2{
+    color:green;
+}
+.text-color3{
+    color:red;
+}
+#section1 > h2{
+    color:turquoise;
+}
+.border{
+    border:solid black;
+}
