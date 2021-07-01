@@ -9,15 +9,32 @@
     <style>
      table, th, td {
         border: 1px solid black;
-      }
+     }
+    .text-color{
+        color:blue;
+    }
+    .text-color2{
+        color:green;
+    }
+    .text-color3{
+        color:red;
+    }
+    #section1 > h2{
+        color:turquoise;
+    }
+    .border{
+        border:solid black;
+    }
     </style>
 </head>
 
 <body>
     <h1> Basic Tags</h1>
 
-    <section>
+    <section id="section1">
         <h2>Section 1 </h2>
+        <div class="border">
+        <div class="text-color">
         <p>This line is written using the paragraph tags.</p>
         <p>Here is an example of blockquote:</p>
         <blockquote cite="https://www.w3schools.com/tags/tag_blockquote.asp">The &lt;blockquote&gt; tag specifies a
@@ -30,9 +47,11 @@
                ||----- |
                ||     ||
     </pre>
+        </div>
+        </div>
     </section>
 
-    <section>
+    <section id="section2">
         <h2> Section 2</h2>
         Using &lt;em&gt;: <em>Italicized</em>
         <br>
@@ -45,7 +64,7 @@
         Using &lt;code&gt;: <code>print("hello world")</code>
     </section>
 
-    <section>
+    <section id="section3">
         <h2> Section 3</h2>
         Using &lt;a&gt;: <a href="https://www.google.com">hello</a>
     </section>
@@ -56,21 +75,26 @@
     Using &lt;img&gt;: <img src="hello.jpg" height="50" width="50" alt="">
 
 
-    <section>
+    <section id="section4"n>
         <h2>Section 4 </h2>
+        <div class="border">
+        <div class="text-color2">
         <h1>h1</h1>
         <h2>h2</h2>
         <h3>h3</h3>
+        </div>
+        </div>
     </section>
 
     <h1>
         List
     </h1>
 
-    <section>
+    <section id="section4-1">
         <h2>Unordered List</h2>
+        <div class="border">
         Using &lt;ul&gt;
-        <ul>
+        <ul class="text-color3">
             <li>
                 Java
             </li>
@@ -81,12 +105,14 @@
                 C
             </li>
         </ul>
+        </div>
     </section>
 
-    <section>
+    <section id="section4-2">
         <h2>Ordered List</h2>
+        <div class="border">
         Using &lt;ol&gt;
-        <ol>
+        <ol class="text-color">
             <li>
                 Java
             </li>
@@ -97,10 +123,12 @@
                 C
             </li>
         </ol>
+        </div>
     </section>
 
-    <section>
+    <section id="section4-3">
         <h2>Including Other HTML in List</h2>
+        <div class="border">
         <ul>
             <li>
                 <a href="http://www.google.com">Google</a>
@@ -109,10 +137,12 @@
                 <img src="hello.jpg" height="50" width="50" alt="">
             </li>
         </ul>
+        </div>
     </section>
 
-    <section>
+    <section id="section4-4">
         <h2>Nested List</h2>
+        <div class="border">
         <ul>
             <li>
                 Sports
@@ -133,12 +163,13 @@
                 </ul>
             </li>
         </ul>
+        </div>
     </section>
 
     <h1>
         Tables
     </h1>
-    <section>
+    <section id="Table1">
         <h2>Table 1</h2>
 
         <table style="text-align: center; border-spacing: 5px; border: 1px solid black;">
@@ -181,7 +212,7 @@
             </tbody>
         </table>
     </section>
-    <section>
+    <section id="Table2">
         <h2>Table 2</h2>
         <table style="text-align: center; border-spacing: 5px; border: 1px solid black;">
             <thead>
@@ -234,7 +265,7 @@
 
     </section>
 
-    <section>
+    <section id="Table3">
         <h2>Table 3</h2>
         <table style="text-align: center; border-spacing: 5px; border: 1px solid black;">
             <thead>
